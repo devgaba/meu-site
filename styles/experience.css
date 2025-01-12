@@ -3,41 +3,25 @@
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0px;
     background-image: url(/images/code-background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
 
 }
-
-.informations{
-    width: 80%;
-    height: 700px;
-    display: inline-flex;
-    justify-content: space-between;
-}
-
-.box{
-    width: 45%;
-    height: 100%;
-}
-
-#foto-perfil, #redes-sociais{
-    width: 100%;
-}
-
-#foto-perfil{
+section{
     display: flex;
+    position: static;
     align-items: end;
-    height: 55%;
+    justify-content: end;
+    width: 400px;
+    height: 400px;
 }
-#experiencia{
-    width: 90%;
-    height: 75%;
-    border-radius: 73px;
-    background-color: white;
-    box-shadow: 0px 3px 13.5px 1px rgba(0, 0, 0, 0.247);
+img{
+    display: flex;
+    position:static;
+    width: 300px;
+    height: 300px;
 }
+
