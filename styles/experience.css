@@ -6,7 +6,7 @@ body{
     margin: 0px;
     background-image: url(../images/code-background.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
     
 
 }
