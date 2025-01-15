@@ -13,6 +13,7 @@ header {
     display: flex;
     justify-content: space-around;
 }
+
 #titulo{
     margin: 10px 0px;
 }
@@ -53,14 +54,18 @@ main{
 }
 #introducao{
     height: 400px;
-    padding-left: 90px;
     text-align: justify;
     line-height: 30px;
     font-weight: 200;
     font-size: 23px;
     color: rgb(34, 34, 34);
 }
+#home{
+    display: flex;
+    justify-content: center;
+}
 section{
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,11 +110,11 @@ section{
     }
     #introducao{
         width: 50%;
-        height: 300px;
+        height: 250px;
         text-align: justify;
         line-height: 50px;
         font-weight: 100;
-        font-size: 30px;
+        font-size: 24px;
         color: rgb(34, 34, 34);
         display: flex;
         flex-direction: column;
@@ -119,11 +124,10 @@ section{
     .imagem img{
         padding-top: 80px;
         float: right;
-        width: 90%;
+        width: 85%;
     }
     
     section{
-        margin-top: 100px;
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -142,7 +146,7 @@ section{
     section{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         height: 500px;
     }
     /*HEADER*/
@@ -170,7 +174,7 @@ section{
     /*MAIN -FIRST SECTION*/
     #introducao h1{
         margin: 0px;
-        font-size: 59px;
+        font-size: 50px;
     }
     #introducao{
         margin: 0px;
@@ -179,7 +183,7 @@ section{
         text-align: justify;
         line-height: 32px;
         font-weight: 200;
-        font-size: 20px;
+        font-size: 18px;
         color: rgb(34, 34, 34);
     }
     .imagem{
@@ -233,9 +237,9 @@ section{
     #introducao{
         height: 240px;
         text-align: justify;
-        line-height: 40px;
+        line-height: 35px;
         font-weight: 200;
-        font-size: 24px;
+        font-size: 20px;
         color: rgb(34, 34, 34);
         display: flex;
         flex-direction: column;
@@ -281,9 +285,9 @@ section{
     #introducao{
         height: 240px;
         text-align: justify;
-        line-height: 20px;
+        line-height: 22px;
         font-weight: 200;
-        font-size: 16px;
+        font-size: 14px;
         color: rgb(34, 34, 34);
         display: flex;
         flex-direction: column;
@@ -389,14 +393,13 @@ section{
         justify-content: start;
     }
     .imagem{
-        height: 150px;
-        justify-content: end;
-        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        height: auto;
+        width: 80%;
     }
     .imagem img{
-        align-content: end;
-        align-content: center;
-        width: 220px;
+        width: 160px;
     }
 }
 
@@ -427,6 +430,10 @@ section{
     }
 
     /*MAIN - FIRST SECTION*/
+    section{
+        display: flex;
+        flex-direction: column;
+    }
     #introducao h1{
         align-content: end;
         font-size: 28px;
@@ -443,14 +450,13 @@ section{
         justify-content: start;
     }
     .imagem{
-        margin-top: 40px;
-        height: 150px;
-        justify-content: end;
-        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        height: auto;
+        width: 80%;
+        margin-top: 80px;
     }
     .imagem img{
-        align-content: end;
-        align-content: center;
-        width: 220px;
+        width: 150px;
     }
 }
