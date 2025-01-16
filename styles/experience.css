@@ -4,24 +4,82 @@
 
 body{
     margin: 0px;
-    background-image: url(../images/code-background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
+    align-items: center;
 }
 section{
     display: flex;
-    position: static;
-    align-items: end;
-    justify-content: end;
-    width: 400px;
-    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 700px;
 }
-img{
-    display: flex;
-    position:static;
-    width: 300px;
-    height: 300px;
+.experiencia{
+    border: none;
+    padding: 0px 50px;
+    text-align: justify;
+    line-height: 24px;
 }
 
+#perfil, .experiencia{
+    width: 50%;
+    height: 500px;
+}
+#perfil{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+#box-principal{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    box-shadow: 1.5px 1px 15px -10px #000;
+    border-radius: 23px;
+}
+h1{
+    
+    font-family: "Poppins", sans-serif;
+}
+.box{
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.box ul{
+    padding: 0px;
+    font-size: 23px;
+    line-height: 45px;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+/*IMAGEM e BACKGROUND(BOX DE REDES SOCIAIS)*/
+img{
+    width: 150px;
+}
+#imagem{
+    background-image: url(images/codes.jpg);
+    background-size: cover;
+}
+@media (min-width: 100px) and (max-width: 999px){
+    #perfil{
+        display: none;
+    }
+    .experiencia{
+        line-height: 20px;
+        width: 100%;
+    }
+    h1{
+        text-align: start;
+        line-height: 30px;
+    }
+    ul{
+        padding: 0px;
+        list-style: none;
+    }
+    ul li{
+        margin: 10px 0px;
+    }
+}
