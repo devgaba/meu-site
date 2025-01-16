@@ -5,6 +5,7 @@
 body{
     margin: 0px;
     align-items: center;
+    font-family: "Poppins", sans-serif;
 }
 section{
     display: flex;
@@ -81,5 +82,6 @@ img{
     }
     ul li{
         margin: 10px 0px;
+        font-weight: 100;
     }
 }
