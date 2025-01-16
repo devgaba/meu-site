@@ -60,7 +60,7 @@ img{
     width: 150px;
 }
 #imagem{
-    background-image: url(images/codes.jpg);
+    background-image: url(../images/code-background.png);
     background-size: cover;
 }
 @media (min-width: 100px) and (max-width: 999px){
